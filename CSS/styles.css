@@ -1,0 +1,16 @@
+/* nav-bar */
+.menu-bar{
+  background-color: black;
+  color: #fff;
+}
+.offcanvas-footer{
+  font-size: 10px;
+  color: grey;
+  text-align: center;
+}
+#offcanvasRightLabel{
+  color: #2a9d8f;
+}
+.offcanvas-end{
+  width: 200px;
+}
