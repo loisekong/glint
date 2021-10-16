@@ -1,0 +1,540 @@
+body{
+  color: black;
+  font-family: 'Montserrat' sans-serif;
+}
+
+/* nav-bar */
+.offcanvas{
+  background-color: black !important;
+  color: #fff;
+  height: 100%;
+  padding: 4% !important;
+
+}
+.navbar-brand{
+  width: 10%;
+  padding:4% 2% 2%;
+}
+.navigation{
+  letter-spacing:0.1rem;
+   font-size:0.7rem;
+   font-weight: bolder;
+   text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 3%;
+      color: 	#39b54a;
+}
+.soshas{
+  position: relative;
+  left: 90%;
+  bottom: 40%;
+  color: white;
+  opacity: .8;
+
+}
+
+.sos{
+  padding-bottom: 10px;
+  list-style-type: none;
+  font-size: 30px;
+} */
+ .menhu{
+  top: 5px;
+  right: 5px;
+  color: white;
+  z-index: 1100;
+  background-color: black;
+  border:none;
+  padding: 10px;
+letter-spacing: 0.25rem;
+font-family: 'Montserrat', sans-serif;
+}
+.menhu:hover{
+  color: #39b54a;
+}
+.offcanvas-sos{
+  padding: 10px;
+}
+
+.offcanvas-footer{
+  color: grey;
+  text-align: center;
+  margin-top: 40px;
+}
+.offcanvas-body a{
+  line-height: 2rem;
+  color:#fff;
+  font-weight: 500;
+  text-decoration:none;
+}
+.offcanvas-body a:hover{
+  color: #39b54a;
+}
+
+.scrolldown button{
+  position: absolute;
+  background-color: transparent;
+  font-family: 'Montserrat', sans-serif;;
+  color: white;
+  letter-spacing: 0.15rem;
+  top: 600px;
+  left: 970px;
+  outline:none;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 0.8rem;
+}
+.scrolldown button:hover{
+  background-color:white;
+  color: #39b54a;
+}
+
+/* title */
+
+#header{
+  -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+height: 700px;
+background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('../glint/images/hero-bg.jpg');
+}
+
+.title-sec h1{
+  font-size: 4rem;
+  color: #fff;
+}
+.title-sec{
+  padding: 4% 10% 2% ;
+}
+.btnns{
+  padding: 0 10%;
+}
+.title-buttons{
+  margin-right:  1rem;
+  margin-top: 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+padding: 15px 40px;
+}
+.title-buttons:hover{
+  background-color:white;
+  color: #39b54a;
+}
+#sm-platform{
+  list-style: none;
+position: relative;
+left: 400px;
+  padding: 25% 0 0 0;
+  color:#fff;
+  line-height: 50px;
+}
+/* green sec */
+.section-two{
+  background-color:#39b54a;
+  text-align: center;
+  padding: 10% 7% 2%;
+}
+.horizon{
+color: #fff;
+width: 60%;
+margin: 0 auto;
+}
+.section-two h5{
+  padding-top:30px;
+  line-height: 2;
+}
+.glint{
+  font-size: 100px;
+  padding-bottom: 50px;
+}
+.section-two h6{
+  font-weight: bold;
+
+}
+.numberss{
+  background-color: 	#39b54a;
+  text-align: center;
+  padding: 3% 15% 10%;
+}
+.numberss h2{
+  color: #fff;
+  font-size: 5rem;
+}
+.numberss p{
+  font-weight: 700;
+}
+/* section 3 */
+#purpose{
+  padding: 12%;
+  text-align: center;
+}
+ #purpose .title{
+  color: #39b54a;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.icon{
+  float: left;
+  margin: auto 10px;
+    color: #39b54a;
+}
+.purpose-icons{
+  line-height: 2;
+  padding: 40px 20px 20px;
+}
+.stress{
+  text-align: left;
+}
+#purpose h2{
+  font-size: 3.5rem;
+}
+#purpose hr{
+  margin: 5% auto ;
+  width: 60%;
+  text-align: center;
+}
+/* section 4 */
+#pictures{
+  background-color: black;
+    padding: 10%;
+}
+.pixx{
+  width: 100%;
+
+
+}
+#pictures h5{
+text-align: center;
+color: #39b54a;
+}
+#pictures h1{
+  text-align: center;
+  font-size: 3.6rem;
+}
+#pictures hr{
+  color: #fff;
+  width: 50%;
+  margin: 3% auto;
+}
+/* section 4 */
+.testimonial-image {
+  width: 20%;
+  margin: 0 auto;
+
+}
+
+#testimonials {
+  background-color: #e6e6e6;
+  color: black;
+}
+.caro{
+  padding: 7% 15% ;
+}
+/* section6 */
+.sec6hr{
+transform: rotate(90deg);
+ width: 100px;
+ color: #39b54a;
+margin: 0 auto;
+border: solid 2px;
+opacity: 1;
+border-radius: 5px;
+}
+.contactdeets{
+  color: #39b54a;
+  text-align: center;
+  letter-spacing:0.15rem;
+   font-family: 'Montserrat-medium', sans-serif;
+    font-weight:bolder;
+}
+.contactus input, .ta, .footer-email{
+  border: none;
+border-bottom: 1px solid grey !important;
+margin: 10px;
+line-height: 3;
+width: 90%;
+background-color: transparent;
+color: rgba(255,255,255,.6);
+outline: none;
+font-family: 'Montserrat', sans-serif;
+}
+
+.contactus{
+  padding-left: 45px;
+}
+.contactus input:focus{
+  border-bottom-color: #39b54a !important;
+}
+.footer-email:focus{
+  border-bottom-color: #39b54a !important;
+}
+.submitbtn:hover{
+  background-color: white !important;
+  color:#39b54a!important;
+}
+#lastsection{
+  padding:8%;
+  background-image: url(../glint/images/contact-bg.jpg);
+
+}
+.smhandle{
+  color: white;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+.smhandle i{
+  padding: 0 2%;
+}
+.smhandle i:hover{
+  color: #39b54a;
+}
+.notform{
+  line-height: 2;
+  background-color: black;
+  padding: 50px 0;
+}
+.rowheadeer{
+  padding: 0 0 30px 50px;
+  margin: 10px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+font-size: 0.8rem;
+}
+.sstopit{
+  padding: 10px 50px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 50px;
+
+}
+.testimonial-text{
+    line-height: 1.5;
+}
+.sleek{
+  padding: 5% 13% 20%;
+}
+.picket{
+  background-image: linear-gradient( rgba(0,0,0,0.49),rgba(0,0,0,0.5));
+  padding:5% 20%;
+
+}
+/* testimonial */
+.carousel-item {
+  padding:  8% 15%;
+  text-align: center;
+  color: #555555;
+  font-family: serif;
+}
+.test-logo{
+  color: #555555;
+  font-size: 130px;
+}
+.test-logo:hover{
+  color: black;
+}
+.privarrow{
+  position: absolute;
+  top: 100px;
+  left: 5%;
+  color: white;
+
+}
+.nextarrow{
+  position: absolute;
+  top: 100px;
+  right: 5%;
+  color: white;
+
+}
+.horizons{
+  border: 1px solid;
+  width: 60%;
+margin: 0 auto;
+}
+/* footer */
+.footer{
+  background-color: #111;
+  padding: 5% 7%;
+}
+.ppp{
+  color:#757575;
+  padding: 3% 6% 0 0;
+}
+.pol{
+  text-align: left;
+  padding: 3% 6% 0;
+}
+.footer-email{
+  width: 55%;
+}
+.footer-button{
+  background-color: #39b54a;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  letter-spacing: 0.1rem;
+  font-family: "Montserrat", sans-serif;
+}
+.footer-button:hover{
+  background-color: white;
+  color: #39b54a;
+}
+.footer-footer{
+  text-align: center;
+  color: #757575;
+  padding-top: 10%;
+  font-size: 0.8rem;
+}
+.scrollbutton a {
+  color: #39b54a;
+}
+.scrollbutton a:hover{
+  color: white;
+}
+.scrollbutton{
+    width:50px;
+    height:50px;
+    padding:10px;
+border-radius: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    position: fixed;
+    z-index: 1000;
+    left: 93%;
+    bottom: 10%;
+}
+
+
+/* for phones*/
+@media only screen and (max-width:480px){
+
+.title-sec{
+  padding: 60px;
+
+}
+#header{
+height: 700px;
+padding: 4%;
+}
+.title-buttons{
+  padding: 10px 30px;
+  margin: 10px 10px 10px 20px;
+}
+
+.sec6hr{
+ width: 50px;
+}
+.title-sec h1, .glint, .business, .numberss h2, #purpose h2, #pictures h1, #testimonials h1,#lastsection h1{
+  font-size: 1.7rem !important;
+}
+.title-sec p, .section-two h6, .section-two h5,.numberss p,  #purpose .title, #pictures h5, #testimonials h6, .carousel-item p, .contactdeets, .ppp, .footer-footer{
+font-size: 10px;
+}
+
+.glint{
+  padding-bottom: 20px;
+}
+.contactdeets, .footer-footer, .title-sec{
+  padding-top: 40px;
+}
+.numberss p{
+  font-weight: 500;
+}
+.test-logo{
+width: 3.5rem !important;
+}
+.privarrow, .nextarrow{
+top: 26px;
+width: 10px;
+}
+.testimonial-text{
+  font-size: 15px;
+}
+.contactus,.rowheadeer, .sstopit{
+  padding: 20px;
+}
+.footer-email{
+  width: 80%;
+}
+.footer-button{
+  padding: 8px;
+  font-size: 0.5rem;
+  margin: 5px 0 0 10px;
+}
+.footer{
+  padding: 15%;
+}
+.menhu{
+  font-size: 0.5rem;
+}
+.navbar-brand{
+  width: 20%;
+}
+.soshas{
+  visibility: hidden;
+}
+.test-logo{
+  font-size: 30px;
+}
+}
+/* for tablets */
+@media only screen and (min-width:481px)and (max-width:800px){
+  .glint, .business, .numberss h2, #purpose h2, #pictures h1, #testimonials h1,#lastsection h1{
+    font-size: 3rem !important;
+  }
+  #header{
+  height: 1000px;
+  padding: 4%;
+  }
+  .title-sec h1{
+    font-size: 3.6rem;
+  }
+  .test-logo{
+    font-size: 80px;
+  }
+  .title-buttons{
+    padding:  20px 40px;
+    margin: 20px 10px 10px 5px;
+  }
+.title-sec {
+  padding-top: 50px;
+}
+  .sec6hr{
+   width: 70px;
+  }
+  .footer{
+    padding: 20% 15%;
+  }
+  .navbar-brand{
+    width: 20%;
+    padding:none;
+  }
+  .soshas{
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 300px) {
+
+  #header{
+  padding: 2%;
+  }
+  .title-sec{
+    padding: 30px;
+  }
+  .title-buttons{
+    padding:  20px;
+  }
+  .soshas{
+    visibility: hidden;
+  }
+}
