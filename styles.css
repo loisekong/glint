@@ -1,6 +1,11 @@
-body{
+html,body{
   color: black;
   font-family: 'Montserrat' sans-serif;
+  margin:0!important;
+  width: 100%;
+  height: 100%;
+  padding: 0!important;
+  overflow-x: hidden;
 }
 
 /* nav-bar */
@@ -9,7 +14,6 @@ body{
   color: #fff;
   height: 100%;
   padding: 4% !important;
-
 }
 .navbar-brand{
   width: 10%;
@@ -37,21 +41,8 @@ body{
   padding-bottom: 10px;
   list-style-type: none;
   font-size: 30px;
-} */
- .menhu{
-  top: 5px;
-  right: 5px;
-  color: white;
-  z-index: 1100;
-  background-color: black;
-  border:none;
-  padding: 10px;
-letter-spacing: 0.25rem;
-font-family: 'Montserrat', sans-serif;
 }
-.menhu:hover{
-  color: #39b54a;
-}
+
 .offcanvas-sos{
   padding: 10px;
 }
@@ -71,23 +62,6 @@ font-family: 'Montserrat', sans-serif;
   color: #39b54a;
 }
 
-.scrolldown button{
-  position: absolute;
-  background-color: transparent;
-  font-family: 'Montserrat', sans-serif;;
-  color: white;
-  letter-spacing: 0.15rem;
-  top: 600px;
-  left: 970px;
-  outline:none;
-  border: 1px solid white;
-  padding: 10px;
-  font-size: 0.8rem;
-}
-.scrolldown button:hover{
-  background-color:white;
-  color: #39b54a;
-}
 
 /* title */
 
@@ -124,7 +98,7 @@ padding: 15px 40px;
 }
 #sm-platform{
   list-style: none;
-position: relative;
+position: absolute;
 left: 400px;
   padding: 25% 0 0 0;
   color:#fff;
@@ -413,14 +387,22 @@ border-radius: 50%;
     left: 93%;
     bottom: 10%;
 }
-
-
 /* for phones*/
 @media only screen and (max-width:480px){
 
+  html,body{
+    overflow-x: hidden!important;
+  }
 .title-sec{
   padding: 60px;
 
+}
+.offcanvas{
+  width: 300px!important;
+
+}
+.offcanvas-end{
+  left: 110px!important;
 }
 #header{
 height: 700px;
@@ -486,9 +468,29 @@ width: 10px;
 .test-logo{
   font-size: 30px;
 }
+.scrollbutton{
+    visibility: hidden;
 }
+.scrollbutton a {
+  color: #39b54a;
+  font-size: 10px;
+
+}}
+
 /* for tablets */
 @media only screen and (min-width:481px)and (max-width:800px){
+  html,body{
+    overflow-x: hidden!important;
+  }
+  .offcanvas{
+    width: 500px!important;
+
+  }
+  .offcanvas-end{
+    left: 500px!important;
+  }
+
+
   .glint, .business, .numberss h2, #purpose h2, #pictures h1, #testimonials h1,#lastsection h1{
     font-size: 3rem !important;
   }
